@@ -31,5 +31,14 @@ table.reload('testReload', {
 });
 ```
 
+监听点击传标签带的数据
+
+```
+$('.qiehuancode').on('click', function(){
+    var othis = $(this),type = $(this).data('type');
+    active[type] ? active[type].call(this,othis) : '';
+});
+```
+
 
 
