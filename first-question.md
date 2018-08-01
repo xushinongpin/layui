@@ -61,5 +61,11 @@ name = {name:'1',name2:'2'}
 JSON.stringify(arr)
 ```
 
+自定义变量对象键
+
+```
+{[data.id]:{field:value}}
+```
+
 
 
