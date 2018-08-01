@@ -55,5 +55,11 @@ data:[{},{}]
 name = {name:'1',name2:'2'}
 ```
 
+数组数组传到后台是不的，行要转成对象
+
+```
+JSON.stringify(arr)
+```
+
 
 
