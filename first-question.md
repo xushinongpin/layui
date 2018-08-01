@@ -40,5 +40,14 @@ $('.qiehuancode').on('click', function(){
 });
 ```
 
+后台传的数据
+
+```
+code: 0,
+msg: "",
+count: 1000,
+data:{}
+```
+
 
 
