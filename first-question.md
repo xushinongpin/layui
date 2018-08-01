@@ -67,7 +67,7 @@ JSON.stringify(arr)
 {[data.id]:{field:value}}
 ```
 
-自定义模版 
+自定义模版
 
 ```
 ,templet:function(d){return d.odds + '<i class="layui-icon">&#xe642;</i>';} 此处嵌套修改标签样式
