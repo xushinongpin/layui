@@ -46,7 +46,7 @@ $('.qiehuancode').on('click', function(){
 code: 0,
 msg: "",
 count: 1000,
-data:{}
+data:[{},{}]
 ```
 
 
