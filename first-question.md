@@ -73,5 +73,11 @@ JSON.stringify(arr)
 ,templet:function(d){return d.odds + '<i class="layui-icon">&#xe642;</i>';} 此处嵌套修改标签样式
 ```
 
+判断数组是否存在
+
+```
+arr.hasOwnProperty();
+```
+
 
 
