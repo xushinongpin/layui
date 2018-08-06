@@ -71,6 +71,7 @@ JSON.stringify(arr)
 
 ```
 ,templet:function(d){return d.odds + '<i class="layui-icon">&#xe642;</i>';} 此处嵌套修改标签样式
+,templet:function(d){status_arr = {'0':'启用', '1':'可用', '3':'冻结'};return status_arr[d.is_status]}
 ```
 
 判断数组是否存在
