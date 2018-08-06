@@ -80,5 +80,13 @@ JSON.stringify(arr)
 arr.hasOwnProperty();
 ```
 
+遍历
+
+```
+layui.each(data,function (index,item) {
+
+})
+```
+
 
 
