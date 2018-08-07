@@ -2,5 +2,5 @@
 
 * [前言](README.md)
 * [table的坑](first-question.md)
-* [How can I do X?](second-question.md)
+* [禁用自带显示](second-question.md)
 
