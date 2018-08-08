@@ -21,6 +21,8 @@ name = {name:'1',name2:'2'}
 
 ```
 JSON.stringify(arr)
+或者
+Object.setPrototypeOf(newdata, Object.prototype);
 ```
 
 自定义变量对象键
