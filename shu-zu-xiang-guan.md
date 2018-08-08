@@ -11,5 +11,37 @@ toString  加了引号或者任意东西 - 都是逗号隔开
 arr 是否需要自然键的问题
 ```
 
+定义下固定值 object
+
+```
+name = {name:'1',name2:'2'}
+```
+
+数组数组传到后台是不行的，要转成对象
+
+```
+JSON.stringify(arr)
+```
+
+自定义变量对象键
+
+```
+{[data.id]:{field:value}}
+```
+
+判断数组是否存在
+
+```
+arr.hasOwnProperty();
+```
+
+遍历
+
+```
+layui.each(data,function (index,item) {
+
+})
+```
+
 
 

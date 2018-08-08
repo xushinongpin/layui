@@ -49,24 +49,6 @@ count: 1000,
 data:[{},{}]
 ```
 
-定义下固定值 object
-
-```
-name = {name:'1',name2:'2'}
-```
-
-数组数组传到后台是不的，行要转成对象
-
-```
-JSON.stringify(arr)
-```
-
-自定义变量对象键
-
-```
-{[data.id]:{field:value}}
-```
-
 自定义模版
 
 ```
@@ -74,19 +56,7 @@ JSON.stringify(arr)
 ,templet:function(d){status_arr = {'0':'启用', '1':'可用', '3':'冻结'};return status_arr[d.is_status]}
 ```
 
-判断数组是否存在
 
-```
-arr.hasOwnProperty();
-```
-
-遍历
-
-```
-layui.each(data,function (index,item) {
-
-})
-```
 
 
 
