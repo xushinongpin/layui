@@ -45,5 +45,11 @@ layui.each(data,function (index,item) {
 })
 ```
 
+删除对象的某个值
+
+```
+delete data.field[index];
+```
+
 
 
