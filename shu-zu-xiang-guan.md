@@ -51,5 +51,11 @@ layui.each(data,function (index,item) {
 delete data.field[index];
 ```
 
+将将字符串打散为数组
+
+```
+item.split("")
+```
+
 
 
