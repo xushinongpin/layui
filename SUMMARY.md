@@ -4,4 +4,5 @@
 * [table的坑](first-question.md)
 * [禁用自带显示](second-question.md)
 * [数组-对象相关](shu-zu-xiang-guan.md)
+* [input相关](inputxiang-guan.md)
 
