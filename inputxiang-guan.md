@@ -4,5 +4,11 @@
 $('.xxx').val('');
 ```
 
+选中
+
+```
+$('input[name="user_type[qwe]"][value=qwe]').attr("checked", true);
+```
+
 
 
