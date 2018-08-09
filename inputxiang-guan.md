@@ -8,6 +8,7 @@ $('.xxx').val('');
 
 ```
 $('input[name="user_type[qwe]"][value=qwe]').attr("checked", true);
+$('.is_status').attr("checked",1);
 ```
 
 
