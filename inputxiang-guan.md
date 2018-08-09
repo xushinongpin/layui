@@ -7,6 +7,7 @@ $('.xxx').val('');
 选中
 
 ```
+复选框选中
 $('input[name="user_type[qwe]"][value=qwe]').attr("checked", true);
 $('.is_status').attr("checked",1);
 ```
