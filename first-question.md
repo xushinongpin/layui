@@ -56,7 +56,19 @@ data:[{},{}]
 ,templet:function(d){status_arr = {'0':'启用', '1':'可用', '3':'冻结'};return status_arr[d.is_status]}
 ```
 
+添加table值的点击事件
 
+```
+cols 对应字段添加 ,event:"xxx"
+table.on('tool(test)', function(obj){
+    var data = obj.data; //获得当前行数据
+    var layEvent = obj.event; //获得 lay-event 对应的值（也可以是表头的 event 参数对应的值）
+    //如果是点击代理进去
+    if(layEvent === 'XXX'){
+    }
+    return false;
+});
+```
 
 
 
