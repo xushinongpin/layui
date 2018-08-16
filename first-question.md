@@ -55,6 +55,8 @@ data:[{},{}]
 ,done:  function(res, curr, count){
     $('#layui-laypage-1').append('<span class="layui-laypage-count"> 总计： '+res.sum+'</span>');
 }
+如果嵌套在原本table里面，点击分页后他将会消息，可以考虑写到外层的标签上，比如
+$('.sum').html('<span class="sum-title"> 总计： '+res.sum+'</span>');
 ```
 
 自定义模版
