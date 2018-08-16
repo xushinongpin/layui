@@ -49,6 +49,14 @@ count: 1000,
 data:[{},{}]
 ```
 
+有时候自己传来的数据想显示怎么办？利用done，比如
+
+```
+,done:  function(res, curr, count){
+    $('#layui-laypage-1').append('<span class="layui-laypage-count"> 总计： '+res.sum+'</span>');
+}
+```
+
 自定义模版
 
 ```
