@@ -12,5 +12,11 @@ $('input[name="user_type[qwe]"][value=qwe]').attr("checked", true);
 $('.is_status').attr("checked",1);
 ```
 
+select上需要有搜索的加上
+
+```
+  lay-search=""
+```
+
 
 
