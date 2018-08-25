@@ -80,5 +80,9 @@ table.on('tool(test)', function(obj){
 });
 ```
 
+定义 $ = layui.$, 报Uncaught SyntaxError: Identifier '$' has already been declared，【有可能你上面或者下面定义了，重复定义导致的】
+
+
+
 
 
