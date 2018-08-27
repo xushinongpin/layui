@@ -86,3 +86,12 @@ table.on('tool(test)', function(obj){
 
 
 
+表格外观隔行变色等
+
+```
+,even: true
+,skin: 'row'
+```
+
+
+
