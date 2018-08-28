@@ -6,4 +6,5 @@
 * [数组-对象相关](shu-zu-xiang-guan.md)
 * [input/select相关](inputxiang-guan.md)
 * [弹出层](dan-chu-ceng.md)
+* [添加遮罩层](tian-jia-zhe-zhao-ceng.md)
 
