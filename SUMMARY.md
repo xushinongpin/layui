@@ -7,4 +7,5 @@
 * [input/select相关](inputxiang-guan.md)
 * [弹出层](dan-chu-ceng.md)
 * [添加遮罩层](tian-jia-zhe-zhao-ceng.md)
+* [ajax+excel下载](ajax+excelxia-zai.md)
 
