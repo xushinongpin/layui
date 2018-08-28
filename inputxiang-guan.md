@@ -18,5 +18,12 @@ select上需要有搜索的加上
   lay-search=""
 ```
 
+jq选中select
+
+```
+$('#default_pay option[value='+pay_id+']').attr('selected','');
+form.render(); //刷新select选择框渲染
+```
+
 
 
