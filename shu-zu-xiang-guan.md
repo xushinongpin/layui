@@ -34,7 +34,8 @@ Object.setPrototypeOf(newdata, Object.prototype);
 判断数组是否存在
 
 ```
-arr.hasOwnProperty();
+obj = layui.data('obj').obj;
+Object.values(obj).indexOf('what')  存在将返回对应key，不存在返回-1
 ```
 
 遍历
