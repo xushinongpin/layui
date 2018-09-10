@@ -58,5 +58,11 @@ delete data.field[index];
 item.split("")
 ```
 
+判断是否存在某字符串
+
+```
+data.match(search) !== null
+```
+
 
 
