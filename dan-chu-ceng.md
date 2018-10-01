@@ -33,5 +33,11 @@ layer.open({
 });
 ```
 
+获取父层元素
+
+```
+$("body",parent.document).find('#start').val()
+```
+
 
 
