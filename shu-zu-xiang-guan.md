@@ -64,5 +64,11 @@ item.split("")
 data.match(search) !== null
 ```
 
+查找替换
+
+```
+str.replace("，",",");
+```
+
 
 
