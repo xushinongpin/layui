@@ -55,7 +55,7 @@ delete data.field[index];
 将将字符串打散为数组
 
 ```
-item.split("")//数组只会打散第一个，其他不会处理，需要转为对象才好使用这个
+item.split("")
 ```
 
 判断是否存在某字符串
@@ -67,7 +67,8 @@ data.match(search) !== null
 查找替换
 
 ```
-str.replace("，",",");
+str.replace("，",",");//替换第一位
+str.replace(/，/g,",");//替换所有
 ```
 
 
