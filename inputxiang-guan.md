@@ -25,5 +25,14 @@ $('#default_pay option[value='+pay_id+']').attr('selected','');
 form.render(); //刷新select选择框渲染
 ```
 
+选择器【选择后触发】
+
+```
+<select lay-filter="aaa"></select>
+form.on('select(aaa)',function (data) {
+    console.log(data);
+});
+```
+
 
 
