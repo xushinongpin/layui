@@ -55,7 +55,7 @@ delete data.field[index];
 将将字符串打散为数组
 
 ```
-item.split("")
+item.split("")//数组只会打散第一个，其他不会处理，需要转为对象才好使用这个
 ```
 
 判断是否存在某字符串
