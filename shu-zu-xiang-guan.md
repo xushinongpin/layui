@@ -64,6 +64,12 @@ item.split("")
 data.match(search) !== null
 ```
 
+判断对象是否存在某键
+
+```
+data.hasOwnProperty('abc')
+```
+
 查找替换
 
 ```
