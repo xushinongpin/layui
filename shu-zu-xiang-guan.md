@@ -46,6 +46,12 @@ layui.each(data,function (index,item) {
 })
 ```
 
+判断对象是否存在某键
+
+```
+data.hasOwnProperty('abc')
+```
+
 删除对象的某个值
 
 ```
@@ -62,12 +68,6 @@ item.split("")
 
 ```
 data.match(search) !== null
-```
-
-判断对象是否存在某键
-
-```
-data.hasOwnProperty('abc')
 ```
 
 查找替换
